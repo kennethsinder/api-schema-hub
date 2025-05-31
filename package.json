@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "TypeScript tooling around web API schemas, such as OpenAPI",
   "type": "module",
-  "main": "src/index.js",
-  "scripts": {
-    "build": "tsc",
-    "lint": "eslint . && prettier --check .",
-    "test": "jest"
+  "author": "Kenneth Sinder",
+  "license": "MIT",
+  "homepage": "https://github.com/kennethsinder/api-schema-hub#readme",
+  "bugs": {
+    "url": "https://github.com/kennethsinder/api-schema-hub/issues"
   },
   "repository": {
     "type": "git",
@@ -20,12 +20,15 @@
     "schema",
     "spec"
   ],
-  "author": "Kenneth Sinder",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kennethsinder/api-schema-hub/issues"
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
   },
-  "homepage": "https://github.com/kennethsinder/api-schema-hub#readme",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . && prettier --check .",
+    "test": "jest"
+  },
   "devDependencies": {
     "@eslint/css": "^0.8.1",
     "@eslint/js": "^9.28.0",
