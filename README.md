@@ -14,7 +14,7 @@ Available on [NPM](https://www.npmjs.com/package/@kennethsinder/api-schema-hub) 
 Download and install the package from NPM, e.g.
 
 ```bash
-npm i --save @kennethsinder/api@latest
+npm i --save @kennethsinder/api-schema-hub@latest
 ```
 
 Import and invoke the utilities you need. For example:
