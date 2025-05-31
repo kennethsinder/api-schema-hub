@@ -1,0 +1,5 @@
+.github/
+.vscode/
+test/
+.prettierrc
+.eslint.config.mjs
