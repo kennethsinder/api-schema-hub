@@ -3,6 +3,12 @@ import { uniqWith } from "../../helpers/uniqWith.js"
 import { isSchemaEqual } from "./isSchemaEqual.js"
 import { simplifySchema } from "./simplifySchema.js"
 
+/**
+ * Given an array of OpenAPI 3.1 schemas, return a simplified version of the
+ * array recursively, taking into account the original key that produced the
+ * array (e.g. `anyOf`) to only combine schemas into semantically equivalent
+ * shapes.
+ */
 export function simplifySchemaArray({
   schemaArray,
   key,

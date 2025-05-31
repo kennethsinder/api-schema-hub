@@ -1,6 +1,11 @@
 import { OpenAPIV3_1 as OpenAPI, OpenAPIV3 } from "openapi-types"
 import { simplifySchema } from "./helpers/simplifySchema.js"
 
+/**
+ * Given an OpenAPI 3.1 schema, return a simplified version of the schema.
+ *
+ * This function is a work in progress and may not be complete.
+ */
 export function simplifySpec(spec: OpenAPI.Document): OpenAPI.Document {
   let simplifiedSpec = spec
 

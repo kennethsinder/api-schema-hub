@@ -1,5 +1,5 @@
 import { describe, expect, it } from "@jest/globals"
-import { OpenAPIV3_1 as OpenAPI } from "openapi-types"
+import type { OpenAPIV3_1 as OpenAPI } from "openapi-types"
 import { simplifySchema } from "../../../src/openapi/helpers/simplifySchema"
 
 describe("simplifySchema", () => {

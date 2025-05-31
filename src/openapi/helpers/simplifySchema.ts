@@ -1,6 +1,11 @@
 import { OpenAPIV3_1 as OpenAPI } from "openapi-types"
 import { simplifySchemaArray } from "./simplifySchemaArray.js"
 
+/**
+ * Given an OpenAPI 3.1 schema, return a simplified version of the schema.
+ *
+ * This function is a work in progress and may not be complete.
+ */
 export function simplifySchema(
   schema: OpenAPI.SchemaObject,
 ): OpenAPI.SchemaObject {
