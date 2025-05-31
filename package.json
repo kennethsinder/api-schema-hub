@@ -1,6 +1,6 @@
 {
   "name": "@kennethsinder/api-schema-hub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript tooling around web API schemas, such as OpenAPI",
   "type": "module",
   "author": "Kenneth Sinder",
