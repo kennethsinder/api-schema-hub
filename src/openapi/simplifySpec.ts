@@ -7,7 +7,7 @@ import { simplifySchema } from "./helpers/simplifySchema.js"
  * This function is a work in progress and may not be complete.
  */
 export function simplifySpec(spec: OpenAPI.Document): OpenAPI.Document {
-  let simplifiedSpec = spec
+  const simplifiedSpec = spec
 
   if (simplifiedSpec.components?.schemas) {
     simplifiedSpec.components.schemas = Object.fromEntries(
